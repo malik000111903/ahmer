@@ -1,0 +1,7 @@
+import pandas as pd
+
+batch_groups = { 'MatMIE': 28,'Mat DAIS': 32, 'COMIE': 38,'COMEC': 42}
+
+students_series = pd.Series(batch_groups)
+
+print(students_series)
