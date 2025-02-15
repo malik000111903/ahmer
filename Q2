@@ -1,0 +1,14 @@
+import pandas as pd
+
+# List of month names
+month_names = ['January', 'February', 'March', 'April', 'May', 'June', 
+               'July', 'August', 'September', 'October', 'November', 'December']
+
+# List of month numbers
+month_numbers = list(range(1, 13))
+
+# Creating the Series
+month_series = pd.Series(month_numbers, index=month_names)
+
+# Display the Series
+print(month_series)
